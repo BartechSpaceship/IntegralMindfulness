@@ -1,0 +1,6 @@
+module Pods_IntegralMindfulness {
+  umbrella header "Pods-IntegralMindfulness-umbrella.h"
+
+  export *
+  module * { export * }
+}

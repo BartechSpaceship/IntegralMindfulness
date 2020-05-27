@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2517028ABF865145858F53EB4A5AE3E5 /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0BA7B31F0B7DC49C213DC66052A35A /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27DD59DDFCCA1F155976C0C44602E238 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B48EB02ED6830907DBB7A3505D9B20 /* DPDUIView+Extension.swift */; };
+		2CDF0B195A1FACC9615BB963B7DA055B /* MSCollectionViewCellPeekingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2A4EF6231A6485758BCD36F4F12BC /* MSCollectionViewCellPeekingLayout.swift */; };
+		4483016254DCB2FB787F508BA8F37C61 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6895E6605AB67F3264560EE8AEEF9448 /* DropDown.swift */; };
+		60269F5717F2059300335869D52EBA3C /* Pods-IntegralMindfulness-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1AEA48EA951D1E2BAE6C89699DDE2BC /* Pods-IntegralMindfulness-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6196D70A86D6BF0EBDBA80C5967DF443 /* MSPeekCollectionViewDelegateImplementation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F286804AC4A64BA99C07C56C420F2B28 /* MSPeekCollectionViewDelegateImplementation-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F8005200FD8C7FC4E049C867281EC33 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C49970634533201FE5590CEDC94CA90 /* DPDConstants.swift */; };
+		8C59498094F29A70C116E4652DF0C405 /* UICollectionView+PeekConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44050D6B4C37BA9C4A1E8D8F5C7554E9 /* UICollectionView+PeekConfiguration.swift */; };
+		8E80E118C91A4D0B22865F660BAA7B3B /* CGPoint+Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8E84642FF306454AF41F2E7564627 /* CGPoint+Axis.swift */; };
+		8F8C1DB6CAC0032CAB8C3BA9522B3647 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6923E7AA004C968ED6075840CF2F6CE /* DropDown+Appearance.swift */; };
+		9DA51D94662696B9905816ACEE650765 /* UICollectionViewScrollDirection+PeekDataCovnversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D4041FAFFF91B8A17A50CBF63868FC /* UICollectionViewScrollDirection+PeekDataCovnversion.swift */; };
+		9FF6B86575AD9BC52A84FB16A241EB7E /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93DBA7FA21AC71FEEF6C375A9DE054 /* DropDownCell.swift */; };
+		A714F3B020D535FEFAC3C5D860910FC0 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC25A11C6BBDFF34BCB6F391E21028F3 /* Sign.swift */; };
+		B19C3C04DF78A89336908D7F773C75B1 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E513EEF34D8A62B5AA106F32F1D98636 /* DropDown-dummy.m */; };
+		B5ECFD08D8EA25B725631DB716354624 /* MSCollectionViewPeekingBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DEFBAD6B263F0A62747C47D2BF693F /* MSCollectionViewPeekingBehavior.swift */; };
+		C3894B6C83A29320C5DC57BC9843EB07 /* MSCollectionViewPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158CAE858BF4177FE533F5710511E634 /* MSCollectionViewPaging.swift */; };
+		C605F936475CEBB247D4A4B73611C87C /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C61FC5D7B704E60EB65E3AFCEBD8D6 /* DPDKeyboardListener.swift */; };
+		CDC18827E159F1C69C0B5640F095A5C7 /* Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67BA26DE7624E17C5EA8D07DDF1ECDE /* Axis.swift */; };
+		DDEC992E638794F71A1F2679F920E26A /* MSPeekCollectionViewDelegateImplementation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA7104E0AF105979AA171841BCAE0D9 /* MSPeekCollectionViewDelegateImplementation-dummy.m */; };
+		E252FF05576FB266268DAD4E2358F232 /* Pods-IntegralMindfulness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E82FC96D9B1CBD0BBA79108F50AF0BD /* Pods-IntegralMindfulness-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806CCBC5B7313D3BAC8F1E3CF47FDF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4DE41EB4BC5DDE87BBBE62DE643BD8;
+			remoteInfo = MSPeekCollectionViewDelegateImplementation;
+		};
+		D8C3045A8AB939C23FB1D216DA1A51EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB8E84642FF306454AF41F2E7564627 /* CGPoint+Axis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Axis.swift"; path = "Sources/MSPeekCollectionViewDelegateImplementation/CGPoint+Axis.swift"; sourceTree = "<group>"; };
+		158CAE858BF4177FE533F5710511E634 /* MSCollectionViewPaging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCollectionViewPaging.swift; path = Sources/MSPeekCollectionViewDelegateImplementation/MSCollectionViewPaging.swift; sourceTree = "<group>"; };
+		16694142B90166CE810353208F76F802 /* Pods-IntegralMindfulness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IntegralMindfulness.debug.xcconfig"; sourceTree = "<group>"; };
+		1A018DB1BED000F3DE0BEB1A71FCA926 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		1E82FC96D9B1CBD0BBA79108F50AF0BD /* Pods-IntegralMindfulness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IntegralMindfulness-dummy.m"; sourceTree = "<group>"; };
+		2759A0C8A70AF5C96CB53E76F745AAE3 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		2848949DD809BC5C5680B3617CBE153C /* libMSPeekCollectionViewDelegateImplementation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMSPeekCollectionViewDelegateImplementation.a; path = libMSPeekCollectionViewDelegateImplementation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C49970634533201FE5590CEDC94CA90 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		3AF7D5773ACFF6F98B171BEC0BD54593 /* libPods-IntegralMindfulness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-IntegralMindfulness.a"; path = "libPods-IntegralMindfulness.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25AD3E93148F44324BCD9D9A46FAF1 /* Pods-IntegralMindfulness.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IntegralMindfulness.modulemap"; sourceTree = "<group>"; };
+		42D4041FAFFF91B8A17A50CBF63868FC /* UICollectionViewScrollDirection+PeekDataCovnversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionViewScrollDirection+PeekDataCovnversion.swift"; path = "Sources/MSPeekCollectionViewDelegateImplementation/UICollectionViewScrollDirection+PeekDataCovnversion.swift"; sourceTree = "<group>"; };
+		43A3CD78BF51EFDB6E583A94886F1FB4 /* MSPeekCollectionViewDelegateImplementation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPeekCollectionViewDelegateImplementation.release.xcconfig; sourceTree = "<group>"; };
+		44050D6B4C37BA9C4A1E8D8F5C7554E9 /* UICollectionView+PeekConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+PeekConfiguration.swift"; path = "Sources/MSPeekCollectionViewDelegateImplementation/UICollectionView+PeekConfiguration.swift"; sourceTree = "<group>"; };
+		4FA7104E0AF105979AA171841BCAE0D9 /* MSPeekCollectionViewDelegateImplementation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSPeekCollectionViewDelegateImplementation-dummy.m"; sourceTree = "<group>"; };
+		50955BD98CCE1A27D04042DEDE6EAE42 /* MSPeekCollectionViewDelegateImplementation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPeekCollectionViewDelegateImplementation.debug.xcconfig; sourceTree = "<group>"; };
+		53C4D56D29A04EC3F40AF81CCF61CFC7 /* Pods-IntegralMindfulness-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IntegralMindfulness-acknowledgements.plist"; sourceTree = "<group>"; };
+		6895E6605AB67F3264560EE8AEEF9448 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		76C61FC5D7B704E60EB65E3AFCEBD8D6 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		7C0BA7B31F0B7DC49C213DC66052A35A /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		7DA72A4B87F79BDA4E1E680C0ADB25CD /* MSPeekCollectionViewDelegateImplementation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSPeekCollectionViewDelegateImplementation.modulemap; sourceTree = "<group>"; };
+		8CAD41B7FAB4DA4AFE082946B1E274EE /* Pods-IntegralMindfulness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IntegralMindfulness.release.xcconfig"; sourceTree = "<group>"; };
+		96C0F4F3A5534436020837437F284A3E /* MSPeekCollectionViewDelegateImplementation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPeekCollectionViewDelegateImplementation-prefix.pch"; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* libDropDown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDropDown.a; path = libDropDown.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC93DBA7FA21AC71FEEF6C375A9DE054 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		C1673E98AF6E1EF65978D48CF9D5C5BB /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		D1AEA48EA951D1E2BAE6C89699DDE2BC /* Pods-IntegralMindfulness-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IntegralMindfulness-umbrella.h"; sourceTree = "<group>"; };
+		D67BA26DE7624E17C5EA8D07DDF1ECDE /* Axis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Axis.swift; path = Sources/MSPeekCollectionViewDelegateImplementation/Axis.swift; sourceTree = "<group>"; };
+		D7DEFBAD6B263F0A62747C47D2BF693F /* MSCollectionViewPeekingBehavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCollectionViewPeekingBehavior.swift; path = Sources/MSPeekCollectionViewDelegateImplementation/MSCollectionViewPeekingBehavior.swift; sourceTree = "<group>"; };
+		E0F610E9CA6C289F9E2047875112A074 /* Pods-IntegralMindfulness-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IntegralMindfulness-resources.sh"; sourceTree = "<group>"; };
+		E513EEF34D8A62B5AA106F32F1D98636 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		E6923E7AA004C968ED6075840CF2F6CE /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		ED67FE4CDE49253C41B7DC088CA4585F /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		EE4E89999B57F7D578846FE1C4C443A9 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		F09E8A1A7108928446C979E40AB48BBC /* Pods-IntegralMindfulness-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IntegralMindfulness-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0B48EB02ED6830907DBB7A3505D9B20 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		F286804AC4A64BA99C07C56C420F2B28 /* MSPeekCollectionViewDelegateImplementation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPeekCollectionViewDelegateImplementation-umbrella.h"; sourceTree = "<group>"; };
+		F7D2A4EF6231A6485758BCD36F4F12BC /* MSCollectionViewCellPeekingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCollectionViewCellPeekingLayout.swift; path = Sources/MSPeekCollectionViewDelegateImplementation/MSCollectionViewCellPeekingLayout.swift; sourceTree = "<group>"; };
+		FC25A11C6BBDFF34BCB6F391E21028F3 /* Sign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sign.swift; path = Sources/MSPeekCollectionViewDelegateImplementation/Sign.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		609C23EC7A33FB52671E8771B172DA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25F7B458AE4475DF82BF4C49A3640D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD03C9BEC7ED0A31A82DD296594A0EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44DB7CF5FC93D2D4E14E0D89C67D6464 /* Pods-IntegralMindfulness */ = {
+			isa = PBXGroup;
+			children = (
+				3B25AD3E93148F44324BCD9D9A46FAF1 /* Pods-IntegralMindfulness.modulemap */,
+				F09E8A1A7108928446C979E40AB48BBC /* Pods-IntegralMindfulness-acknowledgements.markdown */,
+				53C4D56D29A04EC3F40AF81CCF61CFC7 /* Pods-IntegralMindfulness-acknowledgements.plist */,
+				1E82FC96D9B1CBD0BBA79108F50AF0BD /* Pods-IntegralMindfulness-dummy.m */,
+				E0F610E9CA6C289F9E2047875112A074 /* Pods-IntegralMindfulness-resources.sh */,
+				D1AEA48EA951D1E2BAE6C89699DDE2BC /* Pods-IntegralMindfulness-umbrella.h */,
+				16694142B90166CE810353208F76F802 /* Pods-IntegralMindfulness.debug.xcconfig */,
+				8CAD41B7FAB4DA4AFE082946B1E274EE /* Pods-IntegralMindfulness.release.xcconfig */,
+			);
+			name = "Pods-IntegralMindfulness";
+			path = "Target Support Files/Pods-IntegralMindfulness";
+			sourceTree = "<group>";
+		};
+		48D53F23C54C7277F8625D2272656A67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A018DB1BED000F3DE0BEB1A71FCA926 /* DropDown.modulemap */,
+				E513EEF34D8A62B5AA106F32F1D98636 /* DropDown-dummy.m */,
+				C1673E98AF6E1EF65978D48CF9D5C5BB /* DropDown-prefix.pch */,
+				7C0BA7B31F0B7DC49C213DC66052A35A /* DropDown-umbrella.h */,
+				ED67FE4CDE49253C41B7DC088CA4585F /* DropDown.debug.xcconfig */,
+				EE4E89999B57F7D578846FE1C4C443A9 /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		7BF6A37FDA6D4DFA3B3AC64B02BCC7E2 /* MSPeekCollectionViewDelegateImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				D67BA26DE7624E17C5EA8D07DDF1ECDE /* Axis.swift */,
+				0DB8E84642FF306454AF41F2E7564627 /* CGPoint+Axis.swift */,
+				F7D2A4EF6231A6485758BCD36F4F12BC /* MSCollectionViewCellPeekingLayout.swift */,
+				158CAE858BF4177FE533F5710511E634 /* MSCollectionViewPaging.swift */,
+				D7DEFBAD6B263F0A62747C47D2BF693F /* MSCollectionViewPeekingBehavior.swift */,
+				FC25A11C6BBDFF34BCB6F391E21028F3 /* Sign.swift */,
+				44050D6B4C37BA9C4A1E8D8F5C7554E9 /* UICollectionView+PeekConfiguration.swift */,
+				42D4041FAFFF91B8A17A50CBF63868FC /* UICollectionViewScrollDirection+PeekDataCovnversion.swift */,
+				ED8F85D81A1494F7996BCAC969FF02EB /* Support Files */,
+			);
+			name = MSPeekCollectionViewDelegateImplementation;
+			path = MSPeekCollectionViewDelegateImplementation;
+			sourceTree = "<group>";
+		};
+		97C18214D9081D6B7F2D06372955FF2E /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				2C49970634533201FE5590CEDC94CA90 /* DPDConstants.swift */,
+				76C61FC5D7B704E60EB65E3AFCEBD8D6 /* DPDKeyboardListener.swift */,
+				F0B48EB02ED6830907DBB7A3505D9B20 /* DPDUIView+Extension.swift */,
+				6895E6605AB67F3264560EE8AEEF9448 /* DropDown.swift */,
+				E6923E7AA004C968ED6075840CF2F6CE /* DropDown+Appearance.swift */,
+				BC93DBA7FA21AC71FEEF6C375A9DE054 /* DropDownCell.swift */,
+				9C8FE97D1A66FFE22F582219D0BB31EC /* Resources */,
+				48D53F23C54C7277F8625D2272656A67 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		9C8FE97D1A66FFE22F582219D0BB31EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2759A0C8A70AF5C96CB53E76F745AAE3 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A70B0B53E3944A43ECCE56478E99E93D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44DB7CF5FC93D2D4E14E0D89C67D6464 /* Pods-IntegralMindfulness */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B07B18A8E70E3BC115F22C43ACEBA614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* libDropDown.a */,
+				2848949DD809BC5C5680B3617CBE153C /* libMSPeekCollectionViewDelegateImplementation.a */,
+				3AF7D5773ACFF6F98B171BEC0BD54593 /* libPods-IntegralMindfulness.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D6BF446D854AB3FFB8679CD0B0967018 /* Pods */,
+				B07B18A8E70E3BC115F22C43ACEBA614 /* Products */,
+				A70B0B53E3944A43ECCE56478E99E93D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6BF446D854AB3FFB8679CD0B0967018 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97C18214D9081D6B7F2D06372955FF2E /* DropDown */,
+				7BF6A37FDA6D4DFA3B3AC64B02BCC7E2 /* MSPeekCollectionViewDelegateImplementation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8F85D81A1494F7996BCAC969FF02EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA72A4B87F79BDA4E1E680C0ADB25CD /* MSPeekCollectionViewDelegateImplementation.modulemap */,
+				4FA7104E0AF105979AA171841BCAE0D9 /* MSPeekCollectionViewDelegateImplementation-dummy.m */,
+				96C0F4F3A5534436020837437F284A3E /* MSPeekCollectionViewDelegateImplementation-prefix.pch */,
+				F286804AC4A64BA99C07C56C420F2B28 /* MSPeekCollectionViewDelegateImplementation-umbrella.h */,
+				50955BD98CCE1A27D04042DEDE6EAE42 /* MSPeekCollectionViewDelegateImplementation.debug.xcconfig */,
+				43A3CD78BF51EFDB6E583A94886F1FB4 /* MSPeekCollectionViewDelegateImplementation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MSPeekCollectionViewDelegateImplementation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7BFCE78E95C71D351ECB7A5AD3FDC47D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6196D70A86D6BF0EBDBA80C5967DF443 /* MSPeekCollectionViewDelegateImplementation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A765D6EF46201427E9BB1A949CE2A76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60269F5717F2059300335869D52EBA3C /* Pods-IntegralMindfulness-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F682447ED90946CABC6033F25E1ACF0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2517028ABF865145858F53EB4A5AE3E5 /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9ACB9046BA76666108231AF0E9FD110D /* Pods-IntegralMindfulness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315E4BD70CC278F86680B5C009485F82 /* Build configuration list for PBXNativeTarget "Pods-IntegralMindfulness" */;
+			buildPhases = (
+				9A765D6EF46201427E9BB1A949CE2A76 /* Headers */,
+				7C7200A912A5014AFD46C2A4D7BE4A25 /* Sources */,
+				BD03C9BEC7ED0A31A82DD296594A0EBB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4189EBE5A83978046832AC691436B3A8 /* PBXTargetDependency */,
+				2720FF624ED1F565BABB4014B6932293 /* PBXTargetDependency */,
+			);
+			name = "Pods-IntegralMindfulness";
+			productName = "Pods-IntegralMindfulness";
+			productReference = 3AF7D5773ACFF6F98B171BEC0BD54593 /* libPods-IntegralMindfulness.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC4DE41EB4BC5DDE87BBBE62DE643BD8 /* MSPeekCollectionViewDelegateImplementation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEAD2E0031FD65B57BADD1322B6E152 /* Build configuration list for PBXNativeTarget "MSPeekCollectionViewDelegateImplementation" */;
+			buildPhases = (
+				7BFCE78E95C71D351ECB7A5AD3FDC47D /* Headers */,
+				E0040B601CDE886357DB52BFCDF8A261 /* Sources */,
+				609C23EC7A33FB52671E8771B172DA99 /* Frameworks */,
+				4D3C3FFAEF4B4897A6F87A79CC6F2CBD /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSPeekCollectionViewDelegateImplementation;
+			productName = MSPeekCollectionViewDelegateImplementation;
+			productReference = 2848949DD809BC5C5680B3617CBE153C /* libMSPeekCollectionViewDelegateImplementation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C61E9491DDF6876FB6B905B3E00E33E /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				F682447ED90946CABC6033F25E1ACF0A /* Headers */,
+				09008733192C7904B0236526F2008F69 /* Sources */,
+				B25F7B458AE4475DF82BF4C49A3640D4 /* Frameworks */,
+				E44F6D635F86D5503E2BE7F5F6D95E64 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* libDropDown.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B07B18A8E70E3BC115F22C43ACEBA614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				CC4DE41EB4BC5DDE87BBBE62DE643BD8 /* MSPeekCollectionViewDelegateImplementation */,
+				9ACB9046BA76666108231AF0E9FD110D /* Pods-IntegralMindfulness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D3C3FFAEF4B4897A6F87A79CC6F2CBD /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/MSPeekCollectionViewDelegateImplementation/MSPeekCollectionViewDelegateImplementation.modulemap",
+				"${PODS_ROOT}/Headers/Public/MSPeekCollectionViewDelegateImplementation/MSPeekCollectionViewDelegateImplementation-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/MSPeekCollectionViewDelegateImplementation-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MSPeekCollectionViewDelegateImplementation/MSPeekCollectionViewDelegateImplementation.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MSPeekCollectionViewDelegateImplementation/MSPeekCollectionViewDelegateImplementation-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		E44F6D635F86D5503E2BE7F5F6D95E64 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/DropDown/DropDown.modulemap",
+				"${PODS_ROOT}/Headers/Public/DropDown/DropDown-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/DropDown-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DropDown/DropDown.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DropDown/DropDown-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09008733192C7904B0236526F2008F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8005200FD8C7FC4E049C867281EC33 /* DPDConstants.swift in Sources */,
+				C605F936475CEBB247D4A4B73611C87C /* DPDKeyboardListener.swift in Sources */,
+				27DD59DDFCCA1F155976C0C44602E238 /* DPDUIView+Extension.swift in Sources */,
+				8F8C1DB6CAC0032CAB8C3BA9522B3647 /* DropDown+Appearance.swift in Sources */,
+				B19C3C04DF78A89336908D7F773C75B1 /* DropDown-dummy.m in Sources */,
+				4483016254DCB2FB787F508BA8F37C61 /* DropDown.swift in Sources */,
+				9FF6B86575AD9BC52A84FB16A241EB7E /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C7200A912A5014AFD46C2A4D7BE4A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E252FF05576FB266268DAD4E2358F232 /* Pods-IntegralMindfulness-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0040B601CDE886357DB52BFCDF8A261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC18827E159F1C69C0B5640F095A5C7 /* Axis.swift in Sources */,
+				8E80E118C91A4D0B22865F660BAA7B3B /* CGPoint+Axis.swift in Sources */,
+				2CDF0B195A1FACC9615BB963B7DA055B /* MSCollectionViewCellPeekingLayout.swift in Sources */,
+				C3894B6C83A29320C5DC57BC9843EB07 /* MSCollectionViewPaging.swift in Sources */,
+				B5ECFD08D8EA25B725631DB716354624 /* MSCollectionViewPeekingBehavior.swift in Sources */,
+				DDEC992E638794F71A1F2679F920E26A /* MSPeekCollectionViewDelegateImplementation-dummy.m in Sources */,
+				A714F3B020D535FEFAC3C5D860910FC0 /* Sign.swift in Sources */,
+				8C59498094F29A70C116E4652DF0C405 /* UICollectionView+PeekConfiguration.swift in Sources */,
+				9DA51D94662696B9905816ACEE650765 /* UICollectionViewScrollDirection+PeekDataCovnversion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2720FF624ED1F565BABB4014B6932293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSPeekCollectionViewDelegateImplementation;
+			target = CC4DE41EB4BC5DDE87BBBE62DE643BD8 /* MSPeekCollectionViewDelegateImplementation */;
+			targetProxy = 806CCBC5B7313D3BAC8F1E3CF47FDF03 /* PBXContainerItemProxy */;
+		};
+		4189EBE5A83978046832AC691436B3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = D8C3045A8AB939C23FB1D216DA1A51EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0842CF1B9D85551E7B060A275D561CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4E89999B57F7D578846FE1C4C443A9 /* DropDown.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/DropDown/DropDown.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		433806B461A9A743EB470DF6C4B1A877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16694142B90166CE810353208F76F802 /* Pods-IntegralMindfulness.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IntegralMindfulness/Pods-IntegralMindfulness.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B6730662BB764DF55C9FA754D7E94D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAD41B7FAB4DA4AFE082946B1E274EE /* Pods-IntegralMindfulness.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IntegralMindfulness/Pods-IntegralMindfulness.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		999967454BC3BAB037FC18D62039598F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A3CD78BF51EFDB6E583A94886F1FB4 /* MSPeekCollectionViewDelegateImplementation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MSPeekCollectionViewDelegateImplementation/MSPeekCollectionViewDelegateImplementation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				MODULEMAP_FILE = Headers/Public/MSPeekCollectionViewDelegateImplementation/MSPeekCollectionViewDelegateImplementation.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MSPeekCollectionViewDelegateImplementation;
+				PRODUCT_NAME = MSPeekCollectionViewDelegateImplementation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB95AE65FA1051920ECBF889B8708300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED67FE4CDE49253C41B7DC088CA4585F /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/DropDown/DropDown.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45D500A06520C52A45BF66BDE76A123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50955BD98CCE1A27D04042DEDE6EAE42 /* MSPeekCollectionViewDelegateImplementation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MSPeekCollectionViewDelegateImplementation/MSPeekCollectionViewDelegateImplementation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				MODULEMAP_FILE = Headers/Public/MSPeekCollectionViewDelegateImplementation/MSPeekCollectionViewDelegateImplementation.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MSPeekCollectionViewDelegateImplementation;
+				PRODUCT_NAME = MSPeekCollectionViewDelegateImplementation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C61E9491DDF6876FB6B905B3E00E33E /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB95AE65FA1051920ECBF889B8708300 /* Debug */,
+				0842CF1B9D85551E7B060A275D561CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315E4BD70CC278F86680B5C009485F82 /* Build configuration list for PBXNativeTarget "Pods-IntegralMindfulness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433806B461A9A743EB470DF6C4B1A877 /* Debug */,
+				7B6730662BB764DF55C9FA754D7E94D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEAD2E0031FD65B57BADD1322B6E152 /* Build configuration list for PBXNativeTarget "MSPeekCollectionViewDelegateImplementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45D500A06520C52A45BF66BDE76A123 /* Debug */,
+				999967454BC3BAB037FC18D62039598F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

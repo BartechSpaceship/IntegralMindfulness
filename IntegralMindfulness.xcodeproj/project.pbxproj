@@ -1,0 +1,1123 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93563005247598F600DF2705 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93563004247598F600DF2705 /* CollectionViewCell.swift */; };
+		935630082475C48100DF2705 /* AmbientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935630062475C48100DF2705 /* AmbientCollectionViewCell.swift */; };
+		935630092475C48100DF2705 /* AmbientCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 935630072475C48100DF2705 /* AmbientCollectionViewCell.xib */; };
+		9356300C2475CF2200DF2705 /* Bell22.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356300B2475CF2200DF2705 /* Bell22.wav */; };
+		9356300E2475D17200DF2705 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356300D2475D17200DF2705 /* 1.wav */; };
+		935630122475D1BF00DF2705 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356300F2475D1BF00DF2705 /* 2.wav */; };
+		935630132475D1BF00DF2705 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630102475D1BF00DF2705 /* 3.wav */; };
+		935630142475D1BF00DF2705 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630112475D1BF00DF2705 /* 4.wav */; };
+		935630192475D4C500DF2705 /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630152475D4C500DF2705 /* 7.wav */; };
+		9356301A2475D4C500DF2705 /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630162475D4C500DF2705 /* 5.wav */; };
+		9356301B2475D4C500DF2705 /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630172475D4C500DF2705 /* 8.wav */; };
+		9356301C2475D4C500DF2705 /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630182475D4C500DF2705 /* 6.wav */; };
+		935630212475D5A000DF2705 /* 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356301E2475D5A000DF2705 /* 9.wav */; };
+		935630222475D5A000DF2705 /* 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356301F2475D5A000DF2705 /* 10.wav */; };
+		935630232475D5A000DF2705 /* 11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630202475D5A000DF2705 /* 11.wav */; };
+		935630292475E5E600DF2705 /* medievalBell12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630242475E5E500DF2705 /* medievalBell12.wav */; };
+		9356302A2475E5E600DF2705 /* Bell13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630252475E5E500DF2705 /* Bell13.wav */; };
+		9356302B2475E5E600DF2705 /* bell16.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630262475E5E600DF2705 /* bell16.wav */; };
+		9356302C2475E5E600DF2705 /* tinybell14.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630272475E5E600DF2705 /* tinybell14.wav */; };
+		9356302D2475E5E600DF2705 /* bell15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630282475E5E600DF2705 /* bell15.wav */; };
+		935630332475E62900DF2705 /* vell21.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356302E2475E62800DF2705 /* vell21.wav */; };
+		935630342475E62900DF2705 /* bell17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356302F2475E62800DF2705 /* bell17.wav */; };
+		935630352475E62900DF2705 /* bell18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630302475E62900DF2705 /* bell18.wav */; };
+		935630362475E62900DF2705 /* bell20.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630312475E62900DF2705 /* bell20.wav */; };
+		935630372475E62900DF2705 /* bell19.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630322475E62900DF2705 /* bell19.wav */; };
+		9356304F24770FA800DF2705 /* thunder.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356303924770FA700DF2705 /* thunder.wav */; };
+		9356305024770FA800DF2705 /* catPurr.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356303A24770FA700DF2705 /* catPurr.wav */; };
+		9356305124770FA800DF2705 /* fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356303B24770FA700DF2705 /* fire.wav */; };
+		9356305224770FA800DF2705 /* windy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356303C24770FA700DF2705 /* windy.wav */; };
+		9356305324770FA800DF2705 /* shaman.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356303D24770FA700DF2705 /* shaman.wav */; };
+		9356305424770FA800DF2705 /* crickets.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356303E24770FA700DF2705 /* crickets.wav */; };
+		9356305524770FA800DF2705 /* frogs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356303F24770FA700DF2705 /* frogs.wav */; };
+		9356305624770FA800DF2705 /* oneDrum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304024770FA700DF2705 /* oneDrum.wav */; };
+		9356305724770FA800DF2705 /* fly.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304124770FA700DF2705 /* fly.wav */; };
+		9356305824770FA800DF2705 /* brainMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304224770FA800DF2705 /* brainMusic.wav */; };
+		9356305924770FA800DF2705 /* drumsWithAShaman.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304324770FA800DF2705 /* drumsWithAShaman.wav */; };
+		9356305A24770FA800DF2705 /* bellAir.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304424770FA800DF2705 /* bellAir.wav */; };
+		9356305B24770FA800DF2705 /* farts.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304524770FA800DF2705 /* farts.wav */; };
+		9356305C24770FA800DF2705 /* drumsNoShaman.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304624770FA800DF2705 /* drumsNoShaman.wav */; };
+		9356305D24770FA800DF2705 /* lightMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304724770FA800DF2705 /* lightMusic.wav */; };
+		9356305E24770FA800DF2705 /* ohm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304824770FA800DF2705 /* ohm.wav */; };
+		9356305F24770FA800DF2705 /* stressBalls.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304924770FA800DF2705 /* stressBalls.wav */; };
+		9356306024770FA800DF2705 /* rainyBird.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304A24770FA800DF2705 /* rainyBird.wav */; };
+		9356306124770FA800DF2705 /* brainMusic2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304B24770FA800DF2705 /* brainMusic2.wav */; };
+		9356306224770FA800DF2705 /* forestExperience.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304C24770FA800DF2705 /* forestExperience.wav */; };
+		9356306324770FA800DF2705 /* meditativeRinging.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304D24770FA800DF2705 /* meditativeRinging.wav */; };
+		9356306424770FA800DF2705 /* waterfall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356304E24770FA800DF2705 /* waterfall.wav */; };
+		935630762478385500DF2705 /* 3.9hz111-114.9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630682478385400DF2705 /* 3.9hz111-114.9.wav */; };
+		935630772478385500DF2705 /* 0.9hz80-80.9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630692478385400DF2705 /* 0.9hz80-80.9.wav */; };
+		935630782478385500DF2705 /* 4hz210-214.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356306A2478385500DF2705 /* 4hz210-214.wav */; };
+		935630792478385500DF2705 /* 2.5hz79.5-82.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356306B2478385500DF2705 /* 2.5hz79.5-82.wav */; };
+		9356307A2478385500DF2705 /* 3.5hz123.5-127.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356306C2478385500DF2705 /* 3.5hz123.5-127.wav */; };
+		9356307B2478385500DF2705 /* 2.1hz143-145.1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356306D2478385500DF2705 /* 2.1hz143-145.1.wav */; };
+		9356307C2478385500DF2705 /* 4hz418-422.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356306E2478385500DF2705 /* 4hz418-422.wav */; };
+		9356307D2478385500DF2705 /* 1hz56-57.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356306F2478385500DF2705 /* 1hz56-57.wav */; };
+		9356307E2478385500DF2705 /* 3.4hz126-130.4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630702478385500DF2705 /* 3.4hz126-130.4.wav */; };
+		9356307F2478385500DF2705 /* 4hz128-132.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630712478385500DF2705 /* 4hz128-132.wav */; };
+		935630802478385500DF2705 /* 4hz102-106.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630722478385500DF2705 /* 4hz102-106.wav */; };
+		935630812478385500DF2705 /* 2.5hz315-317.5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630732478385500DF2705 /* 2.5hz315-317.5.wav */; };
+		935630822478385500DF2705 /* 1.5hz68-69.5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630742478385500DF2705 /* 1.5hz68-69.5.wav */; };
+		935630832478385500DF2705 /* 0.5hz60-60.5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 935630752478385500DF2705 /* 0.5hz60-60.5.wav */; };
+		9356308B24783C1D00DF2705 /* 6.3hz242-246.3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356308424783C1C00DF2705 /* 6.3hz242-246.3.wav */; };
+		9356308C24783C1D00DF2705 /* 7hz284-291.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356308524783C1C00DF2705 /* 7hz284-291.wav */; };
+		9356308D24783C1D00DF2705 /* 7.83hz430-437.83.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356308624783C1D00DF2705 /* 7.83hz430-437.83.wav */; };
+		9356308E24783C1D00DF2705 /* 5hz220-225.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356308724783C1D00DF2705 /* 5hz220-225.wav */; };
+		9356308F24783C1D00DF2705 /* 5.5hz131-136.5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356308824783C1D00DF2705 /* 5.5hz131-136.5.wav */; };
+		9356309024783C1D00DF2705 /* 7.5hz253-260.5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356308924783C1D00DF2705 /* 7.5hz253-260.5.wav */; };
+		9356309124783C1D00DF2705 /* 4.5hz200-204.5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356308A24783C1D00DF2705 /* 4.5hz200-204.5.wav */; };
+		9356309D24784E7400DF2705 /* 8.22hz350-358.22.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309224784E7300DF2705 /* 8.22hz350-358.22.wav */; };
+		9356309E24784E7400DF2705 /* 10hz280-290.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309324784E7300DF2705 /* 10hz280-290.wav */; };
+		9356309F24784E7400DF2705 /* 12hz317-329.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309424784E7300DF2705 /* 12hz317-329.wav */; };
+		935630A024784E7400DF2705 /* 13hz185-198.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309524784E7300DF2705 /* 13hz185-198.wav */; };
+		935630A124784E7400DF2705 /* 15.4hz275-290.4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309624784E7400DF2705 /* 15.4hz275-290.4.wav */; };
+		935630A224784E7400DF2705 /* 11hz400-411.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309724784E7400DF2705 /* 11hz400-411.wav */; };
+		935630A324784E7400DF2705 /* 9.33hz230-239.33.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309824784E7400DF2705 /* 9.33hz230-239.33.wav */; };
+		935630A424784E7400DF2705 /* 14hz313-327.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309924784E7400DF2705 /* 14hz313-327.wav */; };
+		935630A524784E7400DF2705 /* 10hz450-460.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309A24784E7400DF2705 /* 10hz450-460.wav */; };
+		935630A624784E7400DF2705 /* 20hz220-240.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309B24784E7400DF2705 /* 20hz220-240.wav */; };
+		935630A724784E7400DF2705 /* 40hz130-170.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9356309C24784E7400DF2705 /* 40hz130-170.wav */; };
+		935FB2D6247EADA0000BDA96 /* EndingBellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935FB2D5247EADA0000BDA96 /* EndingBellController.swift */; };
+		9360B88A247C254100B3C054 /* StartingEndingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360B889247C254100B3C054 /* StartingEndingViewCell.swift */; };
+		937250A62474C7330096E29D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250A52474C7330096E29D /* AppDelegate.swift */; };
+		937250A82474C7330096E29D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250A72474C7330096E29D /* SceneDelegate.swift */; };
+		937250AA2474C7330096E29D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250A92474C7330096E29D /* WelcomeViewController.swift */; };
+		937250AD2474C7330096E29D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937250AB2474C7330096E29D /* Main.storyboard */; };
+		937250AF2474C7350096E29D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937250AE2474C7350096E29D /* Assets.xcassets */; };
+		937250B22474C7350096E29D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937250B02474C7350096E29D /* LaunchScreen.storyboard */; };
+		937250BD2474C7350096E29D /* IntegralMindfulnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250BC2474C7350096E29D /* IntegralMindfulnessTests.swift */; };
+		937250C82474C7350096E29D /* IntegralMindfulnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250C72474C7350096E29D /* IntegralMindfulnessUITests.swift */; };
+		937250D82474D7680096E29D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250D72474D7680096E29D /* HomeViewController.swift */; };
+		937250DA2474D7900096E29D /* StartingBellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250D92474D7900096E29D /* StartingBellController.swift */; };
+		937250DF2474D7D80096E29D /* IntervalBellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250DE2474D7D80096E29D /* IntervalBellController.swift */; };
+		937250E42474D81E0096E29D /* BinauralBellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250E32474D81D0096E29D /* BinauralBellController.swift */; };
+		937250E62474D82D0096E29D /* AmbientBellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937250E52474D82D0096E29D /* AmbientBellController.swift */; };
+		937B0A6C2479903B003D58D8 /* SpiritController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B0A6B2479903B003D58D8 /* SpiritController.swift */; };
+		937B0A6F2479A6B7003D58D8 /* SleepController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B0A6E2479A6B7003D58D8 /* SleepController.swift */; };
+		937B0A712479A6FA003D58D8 /* BodyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B0A702479A6FA003D58D8 /* BodyController.swift */; };
+		937B0A732479A704003D58D8 /* BrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B0A722479A704003D58D8 /* BrainController.swift */; };
+		937B0A752479A70E003D58D8 /* StudyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B0A742479A70E003D58D8 /* StudyController.swift */; };
+		EAD41F6BFAADB133B08DAA96 /* libPods-IntegralMindfulness.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507CD70B13D7B4B8E5C4B20 /* libPods-IntegralMindfulness.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		937250B92474C7350096E29D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9372509A2474C7330096E29D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 937250A12474C7330096E29D;
+			remoteInfo = IntegralMindfulness;
+		};
+		937250C42474C7350096E29D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9372509A2474C7330096E29D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 937250A12474C7330096E29D;
+			remoteInfo = IntegralMindfulness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6507CD70B13D7B4B8E5C4B20 /* libPods-IntegralMindfulness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntegralMindfulness.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93563004247598F600DF2705 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		935630062475C48100DF2705 /* AmbientCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientCollectionViewCell.swift; sourceTree = "<group>"; };
+		935630072475C48100DF2705 /* AmbientCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmbientCollectionViewCell.xib; sourceTree = "<group>"; };
+		9356300B2475CF2200DF2705 /* Bell22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bell22.wav; sourceTree = "<group>"; };
+		9356300D2475D17200DF2705 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		9356300F2475D1BF00DF2705 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		935630102475D1BF00DF2705 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		935630112475D1BF00DF2705 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		935630152475D4C500DF2705 /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
+		935630162475D4C500DF2705 /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
+		935630172475D4C500DF2705 /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
+		935630182475D4C500DF2705 /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
+		9356301E2475D5A000DF2705 /* 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9.wav; sourceTree = "<group>"; };
+		9356301F2475D5A000DF2705 /* 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10.wav; sourceTree = "<group>"; };
+		935630202475D5A000DF2705 /* 11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 11.wav; sourceTree = "<group>"; };
+		935630242475E5E500DF2705 /* medievalBell12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = medievalBell12.wav; sourceTree = "<group>"; };
+		935630252475E5E500DF2705 /* Bell13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bell13.wav; sourceTree = "<group>"; };
+		935630262475E5E600DF2705 /* bell16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell16.wav; sourceTree = "<group>"; };
+		935630272475E5E600DF2705 /* tinybell14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tinybell14.wav; sourceTree = "<group>"; };
+		935630282475E5E600DF2705 /* bell15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell15.wav; sourceTree = "<group>"; };
+		9356302E2475E62800DF2705 /* vell21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vell21.wav; sourceTree = "<group>"; };
+		9356302F2475E62800DF2705 /* bell17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell17.wav; sourceTree = "<group>"; };
+		935630302475E62900DF2705 /* bell18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell18.wav; sourceTree = "<group>"; };
+		935630312475E62900DF2705 /* bell20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell20.wav; sourceTree = "<group>"; };
+		935630322475E62900DF2705 /* bell19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell19.wav; sourceTree = "<group>"; };
+		9356303924770FA700DF2705 /* thunder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thunder.wav; sourceTree = "<group>"; };
+		9356303A24770FA700DF2705 /* catPurr.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = catPurr.wav; sourceTree = "<group>"; };
+		9356303B24770FA700DF2705 /* fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fire.wav; sourceTree = "<group>"; };
+		9356303C24770FA700DF2705 /* windy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = windy.wav; sourceTree = "<group>"; };
+		9356303D24770FA700DF2705 /* shaman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shaman.wav; sourceTree = "<group>"; };
+		9356303E24770FA700DF2705 /* crickets.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crickets.wav; sourceTree = "<group>"; };
+		9356303F24770FA700DF2705 /* frogs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = frogs.wav; sourceTree = "<group>"; };
+		9356304024770FA700DF2705 /* oneDrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oneDrum.wav; sourceTree = "<group>"; };
+		9356304124770FA700DF2705 /* fly.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fly.wav; sourceTree = "<group>"; };
+		9356304224770FA800DF2705 /* brainMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = brainMusic.wav; sourceTree = "<group>"; };
+		9356304324770FA800DF2705 /* drumsWithAShaman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drumsWithAShaman.wav; sourceTree = "<group>"; };
+		9356304424770FA800DF2705 /* bellAir.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bellAir.wav; sourceTree = "<group>"; };
+		9356304524770FA800DF2705 /* farts.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = farts.wav; sourceTree = "<group>"; };
+		9356304624770FA800DF2705 /* drumsNoShaman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drumsNoShaman.wav; sourceTree = "<group>"; };
+		9356304724770FA800DF2705 /* lightMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lightMusic.wav; sourceTree = "<group>"; };
+		9356304824770FA800DF2705 /* ohm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ohm.wav; sourceTree = "<group>"; };
+		9356304924770FA800DF2705 /* stressBalls.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = stressBalls.wav; sourceTree = "<group>"; };
+		9356304A24770FA800DF2705 /* rainyBird.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rainyBird.wav; sourceTree = "<group>"; };
+		9356304B24770FA800DF2705 /* brainMusic2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = brainMusic2.wav; sourceTree = "<group>"; };
+		9356304C24770FA800DF2705 /* forestExperience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = forestExperience.wav; sourceTree = "<group>"; };
+		9356304D24770FA800DF2705 /* meditativeRinging.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meditativeRinging.wav; sourceTree = "<group>"; };
+		9356304E24770FA800DF2705 /* waterfall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = waterfall.wav; sourceTree = "<group>"; };
+		935630682478385400DF2705 /* 3.9hz111-114.9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "3.9hz111-114.9.wav"; sourceTree = "<group>"; };
+		935630692478385400DF2705 /* 0.9hz80-80.9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "0.9hz80-80.9.wav"; sourceTree = "<group>"; };
+		9356306A2478385500DF2705 /* 4hz210-214.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "4hz210-214.wav"; sourceTree = "<group>"; };
+		9356306B2478385500DF2705 /* 2.5hz79.5-82.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2.5hz79.5-82.wav"; sourceTree = "<group>"; };
+		9356306C2478385500DF2705 /* 3.5hz123.5-127.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "3.5hz123.5-127.wav"; sourceTree = "<group>"; };
+		9356306D2478385500DF2705 /* 2.1hz143-145.1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2.1hz143-145.1.wav"; sourceTree = "<group>"; };
+		9356306E2478385500DF2705 /* 4hz418-422.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "4hz418-422.wav"; sourceTree = "<group>"; };
+		9356306F2478385500DF2705 /* 1hz56-57.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "1hz56-57.wav"; sourceTree = "<group>"; };
+		935630702478385500DF2705 /* 3.4hz126-130.4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "3.4hz126-130.4.wav"; sourceTree = "<group>"; };
+		935630712478385500DF2705 /* 4hz128-132.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "4hz128-132.wav"; sourceTree = "<group>"; };
+		935630722478385500DF2705 /* 4hz102-106.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "4hz102-106.wav"; sourceTree = "<group>"; };
+		935630732478385500DF2705 /* 2.5hz315-317.5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2.5hz315-317.5.wav"; sourceTree = "<group>"; };
+		935630742478385500DF2705 /* 1.5hz68-69.5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "1.5hz68-69.5.wav"; sourceTree = "<group>"; };
+		935630752478385500DF2705 /* 0.5hz60-60.5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "0.5hz60-60.5.wav"; sourceTree = "<group>"; };
+		9356308424783C1C00DF2705 /* 6.3hz242-246.3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "6.3hz242-246.3.wav"; sourceTree = "<group>"; };
+		9356308524783C1C00DF2705 /* 7hz284-291.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "7hz284-291.wav"; sourceTree = "<group>"; };
+		9356308624783C1D00DF2705 /* 7.83hz430-437.83.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "7.83hz430-437.83.wav"; sourceTree = "<group>"; };
+		9356308724783C1D00DF2705 /* 5hz220-225.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "5hz220-225.wav"; sourceTree = "<group>"; };
+		9356308824783C1D00DF2705 /* 5.5hz131-136.5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "5.5hz131-136.5.wav"; sourceTree = "<group>"; };
+		9356308924783C1D00DF2705 /* 7.5hz253-260.5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "7.5hz253-260.5.wav"; sourceTree = "<group>"; };
+		9356308A24783C1D00DF2705 /* 4.5hz200-204.5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "4.5hz200-204.5.wav"; sourceTree = "<group>"; };
+		9356309224784E7300DF2705 /* 8.22hz350-358.22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "8.22hz350-358.22.wav"; sourceTree = "<group>"; };
+		9356309324784E7300DF2705 /* 10hz280-290.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "10hz280-290.wav"; sourceTree = "<group>"; };
+		9356309424784E7300DF2705 /* 12hz317-329.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "12hz317-329.wav"; sourceTree = "<group>"; };
+		9356309524784E7300DF2705 /* 13hz185-198.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "13hz185-198.wav"; sourceTree = "<group>"; };
+		9356309624784E7400DF2705 /* 15.4hz275-290.4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "15.4hz275-290.4.wav"; sourceTree = "<group>"; };
+		9356309724784E7400DF2705 /* 11hz400-411.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "11hz400-411.wav"; sourceTree = "<group>"; };
+		9356309824784E7400DF2705 /* 9.33hz230-239.33.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "9.33hz230-239.33.wav"; sourceTree = "<group>"; };
+		9356309924784E7400DF2705 /* 14hz313-327.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "14hz313-327.wav"; sourceTree = "<group>"; };
+		9356309A24784E7400DF2705 /* 10hz450-460.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "10hz450-460.wav"; sourceTree = "<group>"; };
+		9356309B24784E7400DF2705 /* 20hz220-240.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "20hz220-240.wav"; sourceTree = "<group>"; };
+		9356309C24784E7400DF2705 /* 40hz130-170.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "40hz130-170.wav"; sourceTree = "<group>"; };
+		935FB2D5247EADA0000BDA96 /* EndingBellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingBellController.swift; sourceTree = "<group>"; };
+		9360B889247C254100B3C054 /* StartingEndingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingEndingViewCell.swift; sourceTree = "<group>"; };
+		937250A22474C7330096E29D /* IntegralMindfulness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegralMindfulness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		937250A52474C7330096E29D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		937250A72474C7330096E29D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		937250A92474C7330096E29D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		937250AC2474C7330096E29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		937250AE2474C7350096E29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		937250B12474C7350096E29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		937250B32474C7350096E29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937250B82474C7350096E29D /* IntegralMindfulnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegralMindfulnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		937250BC2474C7350096E29D /* IntegralMindfulnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegralMindfulnessTests.swift; sourceTree = "<group>"; };
+		937250BE2474C7350096E29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937250C32474C7350096E29D /* IntegralMindfulnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegralMindfulnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		937250C72474C7350096E29D /* IntegralMindfulnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegralMindfulnessUITests.swift; sourceTree = "<group>"; };
+		937250C92474C7350096E29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937250D72474D7680096E29D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		937250D92474D7900096E29D /* StartingBellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingBellController.swift; sourceTree = "<group>"; };
+		937250DE2474D7D80096E29D /* IntervalBellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalBellController.swift; sourceTree = "<group>"; };
+		937250E32474D81D0096E29D /* BinauralBellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinauralBellController.swift; sourceTree = "<group>"; };
+		937250E52474D82D0096E29D /* AmbientBellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientBellController.swift; sourceTree = "<group>"; };
+		937B0A6B2479903B003D58D8 /* SpiritController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritController.swift; sourceTree = "<group>"; };
+		937B0A6E2479A6B7003D58D8 /* SleepController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepController.swift; sourceTree = "<group>"; };
+		937B0A702479A6FA003D58D8 /* BodyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyController.swift; sourceTree = "<group>"; };
+		937B0A722479A704003D58D8 /* BrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainController.swift; sourceTree = "<group>"; };
+		937B0A742479A70E003D58D8 /* StudyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyController.swift; sourceTree = "<group>"; };
+		C4122232A7BDCB4B09EB5625 /* Pods-IntegralMindfulness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegralMindfulness.debug.xcconfig"; path = "Target Support Files/Pods-IntegralMindfulness/Pods-IntegralMindfulness.debug.xcconfig"; sourceTree = "<group>"; };
+		E814A20CF37BF2FC7E0238E2 /* Pods-IntegralMindfulness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegralMindfulness.release.xcconfig"; path = "Target Support Files/Pods-IntegralMindfulness/Pods-IntegralMindfulness.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9372509F2474C7330096E29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD41F6BFAADB133B08DAA96 /* libPods-IntegralMindfulness.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937250B52474C7350096E29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937250C02474C7350096E29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		799A4608685EF81F84A52CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6507CD70B13D7B4B8E5C4B20 /* libPods-IntegralMindfulness.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93563003247593FC00DF2705 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				93563004247598F600DF2705 /* CollectionViewCell.swift */,
+				935630062475C48100DF2705 /* AmbientCollectionViewCell.swift */,
+				935630072475C48100DF2705 /* AmbientCollectionViewCell.xib */,
+				9360B889247C254100B3C054 /* StartingEndingViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9356300A2475CB8800DF2705 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9356306524771FDE00DF2705 /* Binaural Beats */,
+				9356303824770F8D00DF2705 /* Ambients */,
+				9356301D2475D4CF00DF2705 /* bells */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		9356301D2475D4CF00DF2705 /* bells */ = {
+			isa = PBXGroup;
+			children = (
+				9356300D2475D17200DF2705 /* 1.wav */,
+				9356300F2475D1BF00DF2705 /* 2.wav */,
+				935630102475D1BF00DF2705 /* 3.wav */,
+				935630112475D1BF00DF2705 /* 4.wav */,
+				935630162475D4C500DF2705 /* 5.wav */,
+				935630182475D4C500DF2705 /* 6.wav */,
+				935630152475D4C500DF2705 /* 7.wav */,
+				935630172475D4C500DF2705 /* 8.wav */,
+				9356301E2475D5A000DF2705 /* 9.wav */,
+				9356301F2475D5A000DF2705 /* 10.wav */,
+				935630202475D5A000DF2705 /* 11.wav */,
+				935630242475E5E500DF2705 /* medievalBell12.wav */,
+				935630252475E5E500DF2705 /* Bell13.wav */,
+				935630282475E5E600DF2705 /* bell15.wav */,
+				935630262475E5E600DF2705 /* bell16.wav */,
+				935630272475E5E600DF2705 /* tinybell14.wav */,
+				9356302F2475E62800DF2705 /* bell17.wav */,
+				935630302475E62900DF2705 /* bell18.wav */,
+				935630322475E62900DF2705 /* bell19.wav */,
+				935630312475E62900DF2705 /* bell20.wav */,
+				9356302E2475E62800DF2705 /* vell21.wav */,
+				9356300B2475CF2200DF2705 /* Bell22.wav */,
+			);
+			path = bells;
+			sourceTree = "<group>";
+		};
+		9356303824770F8D00DF2705 /* Ambients */ = {
+			isa = PBXGroup;
+			children = (
+				9356304424770FA800DF2705 /* bellAir.wav */,
+				9356304224770FA800DF2705 /* brainMusic.wav */,
+				9356304B24770FA800DF2705 /* brainMusic2.wav */,
+				9356303A24770FA700DF2705 /* catPurr.wav */,
+				9356303E24770FA700DF2705 /* crickets.wav */,
+				9356304624770FA800DF2705 /* drumsNoShaman.wav */,
+				9356304324770FA800DF2705 /* drumsWithAShaman.wav */,
+				9356304524770FA800DF2705 /* farts.wav */,
+				9356303B24770FA700DF2705 /* fire.wav */,
+				9356304124770FA700DF2705 /* fly.wav */,
+				9356304C24770FA800DF2705 /* forestExperience.wav */,
+				9356303F24770FA700DF2705 /* frogs.wav */,
+				9356304724770FA800DF2705 /* lightMusic.wav */,
+				9356304D24770FA800DF2705 /* meditativeRinging.wav */,
+				9356304824770FA800DF2705 /* ohm.wav */,
+				9356304024770FA700DF2705 /* oneDrum.wav */,
+				9356304A24770FA800DF2705 /* rainyBird.wav */,
+				9356303D24770FA700DF2705 /* shaman.wav */,
+				9356304924770FA800DF2705 /* stressBalls.wav */,
+				9356303924770FA700DF2705 /* thunder.wav */,
+				9356304E24770FA800DF2705 /* waterfall.wav */,
+				9356303C24770FA700DF2705 /* windy.wav */,
+			);
+			path = Ambients;
+			sourceTree = "<group>";
+		};
+		9356306524771FDE00DF2705 /* Binaural Beats */ = {
+			isa = PBXGroup;
+			children = (
+				935630752478385500DF2705 /* 0.5hz60-60.5.wav */,
+				935630692478385400DF2705 /* 0.9hz80-80.9.wav */,
+				935630742478385500DF2705 /* 1.5hz68-69.5.wav */,
+				9356306F2478385500DF2705 /* 1hz56-57.wav */,
+				9356306D2478385500DF2705 /* 2.1hz143-145.1.wav */,
+				9356306B2478385500DF2705 /* 2.5hz79.5-82.wav */,
+				935630732478385500DF2705 /* 2.5hz315-317.5.wav */,
+				935630702478385500DF2705 /* 3.4hz126-130.4.wav */,
+				9356306C2478385500DF2705 /* 3.5hz123.5-127.wav */,
+				935630682478385400DF2705 /* 3.9hz111-114.9.wav */,
+				935630722478385500DF2705 /* 4hz102-106.wav */,
+				935630712478385500DF2705 /* 4hz128-132.wav */,
+				9356306A2478385500DF2705 /* 4hz210-214.wav */,
+				9356306E2478385500DF2705 /* 4hz418-422.wav */,
+				9356308A24783C1D00DF2705 /* 4.5hz200-204.5.wav */,
+				9356308824783C1D00DF2705 /* 5.5hz131-136.5.wav */,
+				9356308724783C1D00DF2705 /* 5hz220-225.wav */,
+				9356308424783C1C00DF2705 /* 6.3hz242-246.3.wav */,
+				9356308524783C1C00DF2705 /* 7hz284-291.wav */,
+				9356308924783C1D00DF2705 /* 7.5hz253-260.5.wav */,
+				9356308624783C1D00DF2705 /* 7.83hz430-437.83.wav */,
+				9356309224784E7300DF2705 /* 8.22hz350-358.22.wav */,
+				9356309824784E7400DF2705 /* 9.33hz230-239.33.wav */,
+				9356309324784E7300DF2705 /* 10hz280-290.wav */,
+				9356309A24784E7400DF2705 /* 10hz450-460.wav */,
+				9356309724784E7400DF2705 /* 11hz400-411.wav */,
+				9356309424784E7300DF2705 /* 12hz317-329.wav */,
+				9356309524784E7300DF2705 /* 13hz185-198.wav */,
+				9356309924784E7400DF2705 /* 14hz313-327.wav */,
+				9356309624784E7400DF2705 /* 15.4hz275-290.4.wav */,
+				9356309B24784E7400DF2705 /* 20hz220-240.wav */,
+				9356309C24784E7400DF2705 /* 40hz130-170.wav */,
+			);
+			path = "Binaural Beats";
+			sourceTree = "<group>";
+		};
+		937250992474C7330096E29D = {
+			isa = PBXGroup;
+			children = (
+				937250A42474C7330096E29D /* IntegralMindfulness */,
+				937250BB2474C7350096E29D /* IntegralMindfulnessTests */,
+				937250C62474C7350096E29D /* IntegralMindfulnessUITests */,
+				937250A32474C7330096E29D /* Products */,
+				A714AE405AB1374CE024BC4D /* Pods */,
+				799A4608685EF81F84A52CDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		937250A32474C7330096E29D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				937250A22474C7330096E29D /* IntegralMindfulness.app */,
+				937250B82474C7350096E29D /* IntegralMindfulnessTests.xctest */,
+				937250C32474C7350096E29D /* IntegralMindfulnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		937250A42474C7330096E29D /* IntegralMindfulness */ = {
+			isa = PBXGroup;
+			children = (
+				937250A52474C7330096E29D /* AppDelegate.swift */,
+				937250A72474C7330096E29D /* SceneDelegate.swift */,
+				937250DC2474D7B00096E29D /* Secondary Controllers */,
+				937B0A6D2479904A003D58D8 /* Binaural Controllers */,
+				937250D52474D66C0096E29D /* Main Controller */,
+				937250D62474D69B0096E29D /* View */,
+				93563003247593FC00DF2705 /* Cells */,
+				9356300A2475CB8800DF2705 /* Sounds */,
+				937250B02474C7350096E29D /* LaunchScreen.storyboard */,
+				937250AE2474C7350096E29D /* Assets.xcassets */,
+				937250B32474C7350096E29D /* Info.plist */,
+			);
+			path = IntegralMindfulness;
+			sourceTree = "<group>";
+		};
+		937250BB2474C7350096E29D /* IntegralMindfulnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				937250BC2474C7350096E29D /* IntegralMindfulnessTests.swift */,
+				937250BE2474C7350096E29D /* Info.plist */,
+			);
+			path = IntegralMindfulnessTests;
+			sourceTree = "<group>";
+		};
+		937250C62474C7350096E29D /* IntegralMindfulnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				937250C72474C7350096E29D /* IntegralMindfulnessUITests.swift */,
+				937250C92474C7350096E29D /* Info.plist */,
+			);
+			path = IntegralMindfulnessUITests;
+			sourceTree = "<group>";
+		};
+		937250D52474D66C0096E29D /* Main Controller */ = {
+			isa = PBXGroup;
+			children = (
+				937250A92474C7330096E29D /* WelcomeViewController.swift */,
+				937250D72474D7680096E29D /* HomeViewController.swift */,
+			);
+			path = "Main Controller";
+			sourceTree = "<group>";
+		};
+		937250D62474D69B0096E29D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				937250AB2474C7330096E29D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		937250DC2474D7B00096E29D /* Secondary Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				937250D92474D7900096E29D /* StartingBellController.swift */,
+				937250DE2474D7D80096E29D /* IntervalBellController.swift */,
+				937250E32474D81D0096E29D /* BinauralBellController.swift */,
+				937250E52474D82D0096E29D /* AmbientBellController.swift */,
+				935FB2D5247EADA0000BDA96 /* EndingBellController.swift */,
+			);
+			path = "Secondary Controllers";
+			sourceTree = "<group>";
+		};
+		937B0A6D2479904A003D58D8 /* Binaural Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				937B0A6B2479903B003D58D8 /* SpiritController.swift */,
+				937B0A6E2479A6B7003D58D8 /* SleepController.swift */,
+				937B0A702479A6FA003D58D8 /* BodyController.swift */,
+				937B0A722479A704003D58D8 /* BrainController.swift */,
+				937B0A742479A70E003D58D8 /* StudyController.swift */,
+			);
+			path = "Binaural Controllers";
+			sourceTree = "<group>";
+		};
+		A714AE405AB1374CE024BC4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4122232A7BDCB4B09EB5625 /* Pods-IntegralMindfulness.debug.xcconfig */,
+				E814A20CF37BF2FC7E0238E2 /* Pods-IntegralMindfulness.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		937250A12474C7330096E29D /* IntegralMindfulness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937250CC2474C7350096E29D /* Build configuration list for PBXNativeTarget "IntegralMindfulness" */;
+			buildPhases = (
+				2900D7D02D11AA67D4FF856A /* [CP] Check Pods Manifest.lock */,
+				9372509E2474C7330096E29D /* Sources */,
+				9372509F2474C7330096E29D /* Frameworks */,
+				937250A02474C7330096E29D /* Resources */,
+				CD7787E3A71F079A5C5AC2E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntegralMindfulness;
+			productName = IntegralMindfulness;
+			productReference = 937250A22474C7330096E29D /* IntegralMindfulness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		937250B72474C7350096E29D /* IntegralMindfulnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937250CF2474C7350096E29D /* Build configuration list for PBXNativeTarget "IntegralMindfulnessTests" */;
+			buildPhases = (
+				937250B42474C7350096E29D /* Sources */,
+				937250B52474C7350096E29D /* Frameworks */,
+				937250B62474C7350096E29D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937250BA2474C7350096E29D /* PBXTargetDependency */,
+			);
+			name = IntegralMindfulnessTests;
+			productName = IntegralMindfulnessTests;
+			productReference = 937250B82474C7350096E29D /* IntegralMindfulnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		937250C22474C7350096E29D /* IntegralMindfulnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937250D22474C7350096E29D /* Build configuration list for PBXNativeTarget "IntegralMindfulnessUITests" */;
+			buildPhases = (
+				937250BF2474C7350096E29D /* Sources */,
+				937250C02474C7350096E29D /* Frameworks */,
+				937250C12474C7350096E29D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937250C52474C7350096E29D /* PBXTargetDependency */,
+			);
+			name = IntegralMindfulnessUITests;
+			productName = IntegralMindfulnessUITests;
+			productReference = 937250C32474C7350096E29D /* IntegralMindfulnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9372509A2474C7330096E29D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Bartek;
+				TargetAttributes = {
+					937250A12474C7330096E29D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					937250B72474C7350096E29D = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 937250A12474C7330096E29D;
+					};
+					937250C22474C7350096E29D = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 937250A12474C7330096E29D;
+					};
+				};
+			};
+			buildConfigurationList = 9372509D2474C7330096E29D /* Build configuration list for PBXProject "IntegralMindfulness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 937250992474C7330096E29D;
+			productRefGroup = 937250A32474C7330096E29D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				937250A12474C7330096E29D /* IntegralMindfulness */,
+				937250B72474C7350096E29D /* IntegralMindfulnessTests */,
+				937250C22474C7350096E29D /* IntegralMindfulnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		937250A02474C7330096E29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9356305424770FA800DF2705 /* crickets.wav in Resources */,
+				9356301B2475D4C500DF2705 /* 8.wav in Resources */,
+				935630342475E62900DF2705 /* bell17.wav in Resources */,
+				9356300E2475D17200DF2705 /* 1.wav in Resources */,
+				935630A024784E7400DF2705 /* 13hz185-198.wav in Resources */,
+				9356300C2475CF2200DF2705 /* Bell22.wav in Resources */,
+				9356309F24784E7400DF2705 /* 12hz317-329.wav in Resources */,
+				935630832478385500DF2705 /* 0.5hz60-60.5.wav in Resources */,
+				935630A624784E7400DF2705 /* 20hz220-240.wav in Resources */,
+				9356305724770FA800DF2705 /* fly.wav in Resources */,
+				9356305024770FA800DF2705 /* catPurr.wav in Resources */,
+				935630A424784E7400DF2705 /* 14hz313-327.wav in Resources */,
+				9356305824770FA800DF2705 /* brainMusic.wav in Resources */,
+				935630122475D1BF00DF2705 /* 2.wav in Resources */,
+				935630A724784E7400DF2705 /* 40hz130-170.wav in Resources */,
+				935630822478385500DF2705 /* 1.5hz68-69.5.wav in Resources */,
+				9356308B24783C1D00DF2705 /* 6.3hz242-246.3.wav in Resources */,
+				9356305324770FA800DF2705 /* shaman.wav in Resources */,
+				937250B22474C7350096E29D /* LaunchScreen.storyboard in Resources */,
+				9356306224770FA800DF2705 /* forestExperience.wav in Resources */,
+				9356309024783C1D00DF2705 /* 7.5hz253-260.5.wav in Resources */,
+				935630A324784E7400DF2705 /* 9.33hz230-239.33.wav in Resources */,
+				935630142475D1BF00DF2705 /* 4.wav in Resources */,
+				9356307B2478385500DF2705 /* 2.1hz143-145.1.wav in Resources */,
+				935630A124784E7400DF2705 /* 15.4hz275-290.4.wav in Resources */,
+				9356306124770FA800DF2705 /* brainMusic2.wav in Resources */,
+				9356305924770FA800DF2705 /* drumsWithAShaman.wav in Resources */,
+				9356307F2478385500DF2705 /* 4hz128-132.wav in Resources */,
+				935630372475E62900DF2705 /* bell19.wav in Resources */,
+				9356304F24770FA800DF2705 /* thunder.wav in Resources */,
+				9356309124783C1D00DF2705 /* 4.5hz200-204.5.wav in Resources */,
+				935630092475C48100DF2705 /* AmbientCollectionViewCell.xib in Resources */,
+				9356305524770FA800DF2705 /* frogs.wav in Resources */,
+				935630792478385500DF2705 /* 2.5hz79.5-82.wav in Resources */,
+				9356306324770FA800DF2705 /* meditativeRinging.wav in Resources */,
+				935630192475D4C500DF2705 /* 7.wav in Resources */,
+				935630782478385500DF2705 /* 4hz210-214.wav in Resources */,
+				935630222475D5A000DF2705 /* 10.wav in Resources */,
+				9356302B2475E5E600DF2705 /* bell16.wav in Resources */,
+				9356305624770FA800DF2705 /* oneDrum.wav in Resources */,
+				9356305C24770FA800DF2705 /* drumsNoShaman.wav in Resources */,
+				9356308C24783C1D00DF2705 /* 7hz284-291.wav in Resources */,
+				935630802478385500DF2705 /* 4hz102-106.wav in Resources */,
+				9356305F24770FA800DF2705 /* stressBalls.wav in Resources */,
+				935630232475D5A000DF2705 /* 11.wav in Resources */,
+				935630772478385500DF2705 /* 0.9hz80-80.9.wav in Resources */,
+				9356306424770FA800DF2705 /* waterfall.wav in Resources */,
+				9356301C2475D4C500DF2705 /* 6.wav in Resources */,
+				9356308E24783C1D00DF2705 /* 5hz220-225.wav in Resources */,
+				935630812478385500DF2705 /* 2.5hz315-317.5.wav in Resources */,
+				9356307E2478385500DF2705 /* 3.4hz126-130.4.wav in Resources */,
+				935630362475E62900DF2705 /* bell20.wav in Resources */,
+				935630292475E5E600DF2705 /* medievalBell12.wav in Resources */,
+				9356309D24784E7400DF2705 /* 8.22hz350-358.22.wav in Resources */,
+				9356305224770FA800DF2705 /* windy.wav in Resources */,
+				9356305124770FA800DF2705 /* fire.wav in Resources */,
+				9356302A2475E5E600DF2705 /* Bell13.wav in Resources */,
+				935630332475E62900DF2705 /* vell21.wav in Resources */,
+				9356308D24783C1D00DF2705 /* 7.83hz430-437.83.wav in Resources */,
+				937250AF2474C7350096E29D /* Assets.xcassets in Resources */,
+				9356302D2475E5E600DF2705 /* bell15.wav in Resources */,
+				9356305A24770FA800DF2705 /* bellAir.wav in Resources */,
+				937250AD2474C7330096E29D /* Main.storyboard in Resources */,
+				9356307A2478385500DF2705 /* 3.5hz123.5-127.wav in Resources */,
+				935630A224784E7400DF2705 /* 11hz400-411.wav in Resources */,
+				9356307C2478385500DF2705 /* 4hz418-422.wav in Resources */,
+				9356305B24770FA800DF2705 /* farts.wav in Resources */,
+				9356302C2475E5E600DF2705 /* tinybell14.wav in Resources */,
+				9356305E24770FA800DF2705 /* ohm.wav in Resources */,
+				9356307D2478385500DF2705 /* 1hz56-57.wav in Resources */,
+				935630212475D5A000DF2705 /* 9.wav in Resources */,
+				9356306024770FA800DF2705 /* rainyBird.wav in Resources */,
+				9356301A2475D4C500DF2705 /* 5.wav in Resources */,
+				9356309E24784E7400DF2705 /* 10hz280-290.wav in Resources */,
+				935630352475E62900DF2705 /* bell18.wav in Resources */,
+				935630A524784E7400DF2705 /* 10hz450-460.wav in Resources */,
+				9356305D24770FA800DF2705 /* lightMusic.wav in Resources */,
+				9356308F24783C1D00DF2705 /* 5.5hz131-136.5.wav in Resources */,
+				935630132475D1BF00DF2705 /* 3.wav in Resources */,
+				935630762478385500DF2705 /* 3.9hz111-114.9.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937250B62474C7350096E29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937250C12474C7350096E29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2900D7D02D11AA67D4FF856A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntegralMindfulness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7787E3A71F079A5C5AC2E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntegralMindfulness/Pods-IntegralMindfulness-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntegralMindfulness/Pods-IntegralMindfulness-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntegralMindfulness/Pods-IntegralMindfulness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9372509E2474C7330096E29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937B0A732479A704003D58D8 /* BrainController.swift in Sources */,
+				935FB2D6247EADA0000BDA96 /* EndingBellController.swift in Sources */,
+				93563005247598F600DF2705 /* CollectionViewCell.swift in Sources */,
+				937B0A712479A6FA003D58D8 /* BodyController.swift in Sources */,
+				937250E42474D81E0096E29D /* BinauralBellController.swift in Sources */,
+				937250DA2474D7900096E29D /* StartingBellController.swift in Sources */,
+				937250AA2474C7330096E29D /* WelcomeViewController.swift in Sources */,
+				937250A62474C7330096E29D /* AppDelegate.swift in Sources */,
+				9360B88A247C254100B3C054 /* StartingEndingViewCell.swift in Sources */,
+				937250DF2474D7D80096E29D /* IntervalBellController.swift in Sources */,
+				937250E62474D82D0096E29D /* AmbientBellController.swift in Sources */,
+				935630082475C48100DF2705 /* AmbientCollectionViewCell.swift in Sources */,
+				937B0A6C2479903B003D58D8 /* SpiritController.swift in Sources */,
+				937250A82474C7330096E29D /* SceneDelegate.swift in Sources */,
+				937250D82474D7680096E29D /* HomeViewController.swift in Sources */,
+				937B0A752479A70E003D58D8 /* StudyController.swift in Sources */,
+				937B0A6F2479A6B7003D58D8 /* SleepController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937250B42474C7350096E29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937250BD2474C7350096E29D /* IntegralMindfulnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937250BF2474C7350096E29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937250C82474C7350096E29D /* IntegralMindfulnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		937250BA2474C7350096E29D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 937250A12474C7330096E29D /* IntegralMindfulness */;
+			targetProxy = 937250B92474C7350096E29D /* PBXContainerItemProxy */;
+		};
+		937250C52474C7350096E29D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 937250A12474C7330096E29D /* IntegralMindfulness */;
+			targetProxy = 937250C42474C7350096E29D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		937250AB2474C7330096E29D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937250AC2474C7330096E29D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		937250B02474C7350096E29D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937250B12474C7350096E29D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		937250CA2474C7350096E29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 56UGH7MQ58;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		937250CB2474C7350096E29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 56UGH7MQ58;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		937250CD2474C7350096E29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4122232A7BDCB4B09EB5625 /* Pods-IntegralMindfulness.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UGH7MQ58;
+				INFOPLIST_FILE = IntegralMindfulness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartek.IntegralMindfulness-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		937250CE2474C7350096E29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E814A20CF37BF2FC7E0238E2 /* Pods-IntegralMindfulness.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UGH7MQ58;
+				INFOPLIST_FILE = IntegralMindfulness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartek.IntegralMindfulness-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		937250D02474C7350096E29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UGH7MQ58;
+				INFOPLIST_FILE = IntegralMindfulnessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartek.IntegralMindfulnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntegralMindfulness.app/IntegralMindfulness";
+			};
+			name = Debug;
+		};
+		937250D12474C7350096E29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UGH7MQ58;
+				INFOPLIST_FILE = IntegralMindfulnessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartek.IntegralMindfulnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntegralMindfulness.app/IntegralMindfulness";
+			};
+			name = Release;
+		};
+		937250D32474C7350096E29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UGH7MQ58;
+				INFOPLIST_FILE = IntegralMindfulnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartek.IntegralMindfulnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntegralMindfulness;
+			};
+			name = Debug;
+		};
+		937250D42474C7350096E29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UGH7MQ58;
+				INFOPLIST_FILE = IntegralMindfulnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartek.IntegralMindfulnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntegralMindfulness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9372509D2474C7330096E29D /* Build configuration list for PBXProject "IntegralMindfulness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937250CA2474C7350096E29D /* Debug */,
+				937250CB2474C7350096E29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937250CC2474C7350096E29D /* Build configuration list for PBXNativeTarget "IntegralMindfulness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937250CD2474C7350096E29D /* Debug */,
+				937250CE2474C7350096E29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937250CF2474C7350096E29D /* Build configuration list for PBXNativeTarget "IntegralMindfulnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937250D02474C7350096E29D /* Debug */,
+				937250D12474C7350096E29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937250D22474C7350096E29D /* Build configuration list for PBXNativeTarget "IntegralMindfulnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937250D32474C7350096E29D /* Debug */,
+				937250D42474C7350096E29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9372509A2474C7330096E29D /* Project object */;
+}

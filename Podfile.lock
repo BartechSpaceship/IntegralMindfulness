@@ -1,0 +1,20 @@
+PODS:
+  - DropDown (2.3.13)
+  - MSPeekCollectionViewDelegateImplementation (3.1.1)
+
+DEPENDENCIES:
+  - DropDown
+  - MSPeekCollectionViewDelegateImplementation
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - MSPeekCollectionViewDelegateImplementation
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  MSPeekCollectionViewDelegateImplementation: f86fd6a6ce284723343e8697a013f5294c05e745
+
+PODFILE CHECKSUM: 88c98a97afdfa6e0833f93ff05849f07a42a90fc
+
+COCOAPODS: 1.9.1
