@@ -83,6 +83,8 @@ class EndingBellController: UIViewController {
         
         startingBellDelegate?.didSelectBell(bellName: chosenSoundLabel)
         
+        self.navigationController?.popViewController(animated: true)
+        
         player.pause()
     }
     

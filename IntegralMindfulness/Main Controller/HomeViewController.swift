@@ -39,21 +39,23 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        //MARK: - Activity Type Drop down
+        
+        
         activityDropDown.anchorView = activityTypeLabel
         activityDropDown.bottomOffset = CGPoint(x: 0, y:(activityDropDown.anchorView?.plainView.bounds.height)!)
-    
+
         activityDropDown.dataSource = ["Meditation", "Yoga", "Tai Chi", "Walking", "Breating", "Chanting", "Prayer", "Healing"]
-       
+
         activityDropDown.selectionAction = { [unowned self] (index: Int, item: String) in
           print("Selected item: \(item) at index: \(index)")
             self.activityTypeLabel.setTitle(self.activityDropDown.selectedItem, for: .normal)
         }
-        
+        //MARK: - Warm up Drop down
         warmUpDropDown.anchorView = warmUpLabel
         warmUpDropDown.bottomOffset = CGPoint(x: 0, y:(activityDropDown.anchorView?.plainView.bounds.height)!)
         warmUpDropDown.dataSource = ["0s", "5s", "10s", "15s", "20s", "30s", "1m", "2m", "5m", "10m", "1h"]
-        
+
         warmUpDropDown.selectionAction = { [unowned self] (index: Int, item: String) in
         print("Selected item: \(item) at index: \(index)")
           self.warmUpLabel.setTitle(self.warmUpDropDown.selectedItem, for: .normal)
@@ -64,43 +66,55 @@ class HomeViewController: UIViewController {
         pickerView.dataSource = self
     
     }
-   
-   
     
+    @IBAction func cancelButton(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func saveBarButton(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+   
+    //MARK: - Binaural Beats Button
     @IBAction func binauralBeatsButton(_ sender: UIButton) {
         let binauralVC = storyboard?.instantiateViewController(withIdentifier: "BinauralBellController") as! BinauralBellController
         
         let spiritCNTRL = storyboard?.instantiateViewController(withIdentifier: "SpiritController") as! SpiritController
         
-       
+        
         self.navigationController?.pushViewController(binauralVC, animated: true)
-         spiritCNTRL.spiritControllerDelegate = self
+        spiritCNTRL.spiritControllerDelegate = self
         
     }
-    
+    //MARK: - Ambient Button
     @IBAction func ambientSoundButton(_ sender: UIButton) {
         let ambientVC = storyboard?.instantiateViewController(withIdentifier: "AmbientBellController") as! AmbientBellController
-        
+        self.navigationController?.pushViewController(ambientVC, animated: true)
         ambientVC.ambientSoundDelegate = self
     
-    }
+    }//MARK: - Starting Button
     @IBAction func startingButton(_ sender: UIButton) {
         let startingVC = storyboard?.instantiateViewController(withIdentifier: "StartingBellController") as! StartingBellController
+        self.navigationController?.pushViewController(startingVC, animated: true)
         startingVC.startingBellDelegate = self
         
-    }
-    
-    @IBAction func endingButton(_ sender: UIButton) {
-        let endingVC = storyboard?.instantiateViewController(withIdentifier: "EndingBellController") as! EndingBellController
-        endingVC.startingBellDelegate = self
         
     }
+    //MARK: - Ending Button
+    @IBAction func endingButton(_ sender: UIButton) {
+        let endingVC = storyboard?.instantiateViewController(withIdentifier: "EndingBellController") as! EndingBellController
+        self.navigationController?.pushViewController(endingVC, animated: true)
+        endingVC.startingBellDelegate = self
+        
+    }//MARK: - Interval Button
     @IBAction func intervalButton(_ sender: UIButton) {
         let intervalVC = storyboard?.instantiateViewController(withIdentifier: "IntervalBellController") as! IntervalBellController
         self.navigationController?.pushViewController(intervalVC, animated: true)
         
         
     }
+    
     
     @IBAction func infinityButton(_ sender: UIButton) {
          //  let circle = UIImage(systemName: "circle")
@@ -127,31 +141,35 @@ class HomeViewController: UIViewController {
         
     }
 }
+//MARK: - Ambient Protocol
 extension HomeViewController: getAmbientSoundProtocol {
     func didGetAmbientSound(soundName: String) {
         
-        
+      //  ambientSoundAssistingLabel.text = "{"
         ambientSoundAssistingLabel.text = soundName
     }
 }
+
+//MARK: - Spirit Protocol
 extension HomeViewController: getSpiritControllerProtocol {
     func didGetBeat(beatName: String) {
         binauralBeatsAssistingLabel.text = beatName
     }
 }
+//MARK: - Starting Bell Protocol
 extension HomeViewController: getStartingBellProtocol {
     func didSelectABell(nameOfBell: String) {
         startingBellAssistingLabel.text = nameOfBell
     }
 }
-
+//MARK: - Ending Bell Protocol
 extension HomeViewController: getEndingBellProtocol {
     func didSelectBell(bellName: String) {
         endingBellAssistingLabel.text = bellName
     }
 }
 
-
+//MARK: - PickerViewDelegate & Datasource
 extension HomeViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 3
@@ -167,9 +185,7 @@ extension HomeViewController: UIPickerViewDelegate, UIPickerViewDataSource {
             return 0
         }
     }
-
-   
-
+    
     //Width
     func pickerView(_ pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
         return pickerView.frame.size.width/5
@@ -203,15 +219,8 @@ extension HomeViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         }
         
     }
-//    //MARK: - Changes PickerView Color
-//    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
-//
-//        let string = "\(row) h"
-//
-//        return NSAttributedString(string: string, attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-//       }
 }
-
+//MARK: - Sound
 
 var player: AVAudioPlayer!
 
@@ -220,3 +229,4 @@ func playSound(soundName: String) {
     player = try! AVAudioPlayer(contentsOf: url!)
     player.play()
 }
+

@@ -75,6 +75,7 @@ extension BinauralBellController: UICollectionViewDataSource, UICollectionViewDe
             switch indexPath.row {
             case 0:
                 self.navigationController?.pushViewController(spiritVC, animated: true)
+               
             case 1:
                 self.navigationController?.pushViewController(sleepVC, animated: true)
             case 2:

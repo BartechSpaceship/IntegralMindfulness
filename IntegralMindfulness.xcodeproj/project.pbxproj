@@ -106,6 +106,8 @@
 		937B0A712479A6FA003D58D8 /* BodyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B0A702479A6FA003D58D8 /* BodyController.swift */; };
 		937B0A732479A704003D58D8 /* BrainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B0A722479A704003D58D8 /* BrainController.swift */; };
 		937B0A752479A70E003D58D8 /* StudyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B0A742479A70E003D58D8 /* StudyController.swift */; };
+		938B863E24A255A900278934 /* IntervalBellCreationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B863D24A255A900278934 /* IntervalBellCreationController.swift */; };
+		938B864024A25EF800278934 /* TimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B863F24A25EF800278934 /* TimeData.swift */; };
 		EAD41F6BFAADB133B08DAA96 /* libPods-IntegralMindfulness.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507CD70B13D7B4B8E5C4B20 /* libPods-IntegralMindfulness.a */; };
 /* End PBXBuildFile section */
 
@@ -233,6 +235,8 @@
 		937B0A702479A6FA003D58D8 /* BodyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyController.swift; sourceTree = "<group>"; };
 		937B0A722479A704003D58D8 /* BrainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainController.swift; sourceTree = "<group>"; };
 		937B0A742479A70E003D58D8 /* StudyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyController.swift; sourceTree = "<group>"; };
+		938B863D24A255A900278934 /* IntervalBellCreationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalBellCreationController.swift; sourceTree = "<group>"; };
+		938B863F24A25EF800278934 /* TimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeData.swift; sourceTree = "<group>"; };
 		C4122232A7BDCB4B09EB5625 /* Pods-IntegralMindfulness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegralMindfulness.debug.xcconfig"; path = "Target Support Files/Pods-IntegralMindfulness/Pods-IntegralMindfulness.debug.xcconfig"; sourceTree = "<group>"; };
 		E814A20CF37BF2FC7E0238E2 /* Pods-IntegralMindfulness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegralMindfulness.release.xcconfig"; path = "Target Support Files/Pods-IntegralMindfulness/Pods-IntegralMindfulness.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -416,6 +420,7 @@
 			children = (
 				937250A52474C7330096E29D /* AppDelegate.swift */,
 				937250A72474C7330096E29D /* SceneDelegate.swift */,
+				938B864124A25F0800278934 /* Model */,
 				937250DC2474D7B00096E29D /* Secondary Controllers */,
 				937B0A6D2479904A003D58D8 /* Binaural Controllers */,
 				937250D52474D66C0096E29D /* Main Controller */,
@@ -469,6 +474,7 @@
 			children = (
 				937250D92474D7900096E29D /* StartingBellController.swift */,
 				937250DE2474D7D80096E29D /* IntervalBellController.swift */,
+				938B863D24A255A900278934 /* IntervalBellCreationController.swift */,
 				937250E32474D81D0096E29D /* BinauralBellController.swift */,
 				937250E52474D82D0096E29D /* AmbientBellController.swift */,
 				935FB2D5247EADA0000BDA96 /* EndingBellController.swift */,
@@ -486,6 +492,14 @@
 				937B0A742479A70E003D58D8 /* StudyController.swift */,
 			);
 			path = "Binaural Controllers";
+			sourceTree = "<group>";
+		};
+		938B864124A25F0800278934 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				938B863F24A25EF800278934 /* TimeData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A714AE405AB1374CE024BC4D /* Pods */ = {
@@ -749,6 +763,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938B864024A25EF800278934 /* TimeData.swift in Sources */,
+				938B863E24A255A900278934 /* IntervalBellCreationController.swift in Sources */,
 				937B0A732479A704003D58D8 /* BrainController.swift in Sources */,
 				935FB2D6247EADA0000BDA96 /* EndingBellController.swift in Sources */,
 				93563005247598F600DF2705 /* CollectionViewCell.swift in Sources */,

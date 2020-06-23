@@ -21,7 +21,8 @@ class AmbientBellController: UIViewController {
     @IBOutlet weak var ambientLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
     var chosenAmbientImage = ""
-    var spongeBobble = ""
+    var textName = ""
+    
   let binouralImage = [
        UIImage(named: "study"),
        UIImage(named: "spirit"),
@@ -85,16 +86,16 @@ extension AmbientBellController: UICollectionViewDelegate {//Delegate helps to p
             case "0":
                 
             
-            spongeBobble = "Vitamin C"
+            textName = "Vitamin C"
             chosenAmbientImage = "bellAir"
             playSound(soundName: chosenAmbientImage)
-            ambientLabel.text = spongeBobble
+            ambientLabel.text = chosenAmbientImage
             case "1":
-            print(spongeBobble)
-            spongeBobble = "Supra dupra"
+            print(textName)
+            textName = "Supra dupra"
             chosenAmbientImage = "brainMusic"
             playSound(soundName: chosenAmbientImage)
-            ambientLabel.text = spongeBobble
+            ambientLabel.text = chosenAmbientImage
             case "2":
             chosenAmbientImage = "brainMusic2"
             playSound(soundName: chosenAmbientImage)

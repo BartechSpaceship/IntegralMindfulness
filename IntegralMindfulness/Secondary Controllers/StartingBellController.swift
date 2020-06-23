@@ -73,8 +73,6 @@ class StartingBellController: UIViewController {
         
     }
     
-
-    
     func updateStartingRepeatButtons() {
             startingRepeatButtonOne.isSelected = false
                startingRepeatButtonOne.alpha = 0.3
@@ -95,8 +93,6 @@ class StartingBellController: UIViewController {
         player.pause()
         self.navigationController?.popViewController(animated: true)
     }
-    
-    
     
 }
 
